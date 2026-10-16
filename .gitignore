@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments
+.venv/
+
+# Testing
+.pytest_cache/
+
+# Type checking
+.mypy_cache/
+
+# Linting and formatting
+.ruff_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
